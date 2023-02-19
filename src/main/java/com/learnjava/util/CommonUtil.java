@@ -13,7 +13,7 @@ public class CommonUtil {
         try{
             sleep(delayMilliSeconds);
         }catch (Exception e){
-            LoggerUtil.log("Exception is :" + e.getMessage());
+            log("Exception is :" + e.getMessage());
         }
 
     }
@@ -24,6 +24,7 @@ public class CommonUtil {
     }
 
     public static void startTimer(){
+        stopWatchReset();
         stopWatch.start();
     }
 

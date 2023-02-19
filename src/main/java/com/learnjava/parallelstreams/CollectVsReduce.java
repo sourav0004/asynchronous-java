@@ -1,4 +1,4 @@
-package com.learnjava.collectvsreduce;
+package com.learnjava.parallelstreams;
 
 import com.learnjava.util.DataSet;
 
